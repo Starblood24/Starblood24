@@ -8,7 +8,7 @@ A custom, no-subscription GitHub profile README. It uses your own SVGs instead o
 - `assets/hero.svg`, `assets/featured_typr.svg`, `assets/stack.svg` (+ matching `_mobile.svg`): hand-built vector illustrations.
 - `assets/avatar_ascii.svg`: **genuine colored Unicode character art** derived from `source/avatar_reference.jpg` (your Pompompurin GitHub photo), not an embedded bitmap.
 - `assets/avatar_ascii_detailed.svg`: alternate, larger colored ASCII artwork from the previous design stage.
-- `assets/pompompurin_idle.gif`: a gentle nine-frame blink in a four-second loop; `pompompurin_idle_poster.png` is the static version. Only the eye regions move. `source/idle_base.png` preserves the original rasterized character art for reproducible animation builds.
+- `assets/pompompurin_idle.gif`: the approved Bongo-Cat-style typing loop, 59 frames / 4.96 seconds; `pompompurin_idle_poster.png` is the static version. Only the paws move. `source/bongo_base.png` and `source/bongo_clean.png` are the local animation sources.
 - `assets/stats.svg`, `assets/contributions.svg`, `assets/languages.svg` (plus mobile variants): automatically generated GitHub panels. They currently show **pending** states, not made-up values.
 - `scripts/collect_stats.py`: fetches live GitHub data using a token; Python standard library only.
 - `scripts/render_assets.py`: renders the GitHub panels; Python standard library only.
@@ -70,7 +70,7 @@ python scripts/build_art.py
 
 The artwork source is `source/avatar_reference.jpg`. `config/theme.json` stores the intended palette. The header and GIF are generated locally; the daily workflow doesn't need Pillow.
 
-The GIF is built from `source/idle_base.png`, preserving the original glyph rasterization. If you replace that portrait, recalibrate `EYE_BOXES` in `scripts/build_art.py`. To rebuild only the GIF, run `python -c "import sys; sys.path.insert(0, 'scripts'); import build_art; build_art.build_gif()"`.
+The GIF is built from `source/bongo_base.png` and its paw-free clean plate `source/bongo_clean.png`. If you replace this pose, recalibrate `PAW_BOXES` in `scripts/build_art.py`. The older `source/idle_base.png` remains as an archive of the original portrait. To rebuild only the GIF, run `python -c "import sys; sys.path.insert(0, 'scripts'); import build_art; build_art.build_gif()"`.
 
 To regenerate browser screenshots, use Node.js, Google Chrome and the optional Playwright package (`npm install --no-save playwright`), then run `node scripts/build_preview.cjs`. The script captures the actual HTML instead of maintaining a separate mock layout. It checks image loading, mobile source selection, reduced motion and horizontal overflow at 320, 390, 640 and 1280px. These tools are only for local preview capture; neither the daily workflow nor viewing `preview/index.html` needs them. CairoSVG is no longer required.
 

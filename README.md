@@ -58,7 +58,7 @@ I gravitate toward **game development**, **cybersecurity**, developer tools, and
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pompompurin_idle_poster.png" />
-    <img src="./assets/pompompurin_idle.gif" alt="Animated colorful Unicode Pompompurin in a blue suit using a laptop" width="225" />
+    <img src="./assets/pompompurin_idle.gif" alt="Pompompurin in a blue suit typing with alternating paws in the style of Bongo Cat" width="225" />
   </picture>
 </p>
 

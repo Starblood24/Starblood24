@@ -10,7 +10,7 @@ from html import escape
 import json
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageFilter
 
 ROOT=Path(__file__).resolve().parent.parent
 SOURCE=ROOT/"source/avatar_reference.jpg"
@@ -219,36 +219,40 @@ def build_mobile_art():
     (OUTPUT/"stack_mobile.svg").write_text(wrap(640,268,stack,"Mobile technology toolbox","Mobile-friendly labels for developer technologies"),encoding="utf-8")
 
 
-# Preserve the original rasterized glyphs; only the eye patches are animated.
-# shortcut: eye boxes match this portrait, recalibrate if idle_base.png changes.
-EYE_BOXES = ((214, 130, 230, 145), (305, 149, 321, 167))
-BLINK_LEVELS = (0, .25, .5, .75, 1, .75, .5, .25, 0)
-BLINK_DURATIONS = (2100, 30, 30, 30, 70, 40, 40, 40, 1620)
-
-
-def blink_frame(base, closure):
-    frame = base.copy()
-    for x0, y0, x1, y1 in EYE_BOXES:
-        eye = base.crop((x0, y0, x1, y1))
-        # Nearby skin preserves the colored-glyph texture behind the eyelid.
-        skin = base.crop((x0-21, y0, x1-21, y1))
-        height = max(2, round(eye.height * (1-closure)))
-        eye = eye.resize((eye.width, height), Image.Resampling.BOX)
-        skin.paste(eye, (0, (skin.height-height)//2))
-        frame.paste(skin, (x0, y0))
-    return frame
+# shortcut: paw bounds match this pose at 450px; recalibrate for a new source.
+PAW_BOXES = ((116,285,187,337), (257,285,328,337))
+TYPING_BEAT = ((-4,0,50), (-10,0,80), (-5,0,40), (1,0,70),
+               (0,-4,50), (0,-10,80), (0,-5,40), (0,1,70))
+TYPING_TIMELINE = ((0,0,300),) + TYPING_BEAT*4 + ((0,0,650),) + TYPING_BEAT*3 + ((0,0,650),)
 
 
 def build_gif():
-    with Image.open(ROOT/'source/idle_base.png') as image:
+    with Image.open(ROOT/'source/bongo_base.png') as image:
         base = image.convert('RGB')
-    palette = base.quantize(colors=128, method=Image.Quantize.MEDIANCUT)
-    frames = [blink_frame(base, level).quantize(palette=palette, dither=Image.Dither.NONE)
-              for level in BLINK_LEVELS]
-    frames[0].save(OUTPUT/'pompompurin_idle.gif', save_all=True,
-                   append_images=frames[1:], loop=0, duration=BLINK_DURATIONS,
-                   disposal=1, optimize=False)
-    frames[0].convert('RGB').save(OUTPUT/'pompompurin_idle_poster.png', optimize=True)
+    with Image.open(ROOT/'source/bongo_clean.png') as image:
+        clean = image.convert('RGB')
+    if base.size != (450,438) or clean.size != base.size:
+        raise ValueError('Bongo source images must both be 450x438')
+    background = base.copy()
+    paws = []
+    for box in PAW_BOXES:
+        patch = base.crop(box)
+        mask = Image.new('L',patch.size)
+        pixels = [patch.getpixel((x,y)) for y in range(patch.height) for x in range(patch.width)]
+        mask.putdata([255 if r-b>45 and g-b>30 and r>180 else 0 for r,g,b in pixels])
+        mask = mask.filter(ImageFilter.MaxFilter(11)).filter(ImageFilter.GaussianBlur(.35))
+        paws.append((patch,mask,box[:2]))
+        background.paste(clean.crop(box),box[:2])
+    palette = base.quantize(colors=128)
+    frames = []
+    for left,right,_ in TYPING_TIMELINE:
+        frame = background.copy()
+        for (paw,mask,(x,y)),offset in zip(paws,(left,right)):
+            frame.paste(paw,(x,y+offset),mask)
+        frames.append(frame.quantize(palette=palette,dither=Image.Dither.NONE))
+    frames[0].save(OUTPUT/'pompompurin_idle.gif',save_all=True,append_images=frames[1:],
+                   duration=[ms for _,_,ms in TYPING_TIMELINE],loop=0,disposal=1,optimize=False)
+    frames[0].convert('RGB').save(OUTPUT/'pompompurin_idle_poster.png',optimize=True)
 
 
 def main():

@@ -1,5 +1,9 @@
 # STARBLOOD.OS — lokale Bereinigung, 04.11.2026
 
+## Freigegebenes Animationsupdate
+
+Die spätere Bongo-Cat-Vorschau wurde zur Veröffentlichung freigegeben: kompakte Pixel-Art mit zwei abwechselnd tippenden Pfoten, 59 Frames und 4,96 Sekunden pro Loop. Statisches Poster und lokale Vorschauen wurden angepasst. Der Generator verwendet die mitgelieferte Grundpose und eine pfotenfreie Hintergrundebene; keine Bildgenerierung oder externen Quellen sind beim Neubau erforderlich. Die Animationstests prüfen jetzt Pfotenbewegung, unveränderte übrige Bildbereiche, Timings, identische Endpunkte und bytegleichen Neubau der ausgelieferten GIF-Datei. Die folgenden Abschnitte dokumentieren die ursprüngliche Bereinigung vor diesem Update.
+
 Das Original in Downloads blieb unverändert. Dieses Paket wurde lokal mit dem bereits vorhandenen Ponytail-Workflow überarbeitet. Auf GitHub wurde nichts angelegt, geändert oder ausgeführt. Es wurden keine neuen Motive oder KI-Assets erzeugt.
 
 ## Änderungen
