@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="white-space:pre" width="1040" height="178" viewBox="0 0 1040 178" role="img" aria-label="Languages and tools: Python, Textual, TypeScript, JavaScript, Godot, Git and PowerShell">
+<title>Technology stack</title><desc>Languages and tools: Python, Textual, TypeScript, JavaScript, Godot, Git and PowerShell</desc>
+<rect x="0" y="0" width="1040" height="178" rx="16" fill="#0c1412"/>
+<rect x="1" y="1" width="1038" height="176" rx="15" fill="none" stroke="#345341" stroke-width="2"/>
+<rect x="24" y="25" width="7" height="16" rx="1" fill="#7195b6"/>
+<text style="white-space:pre" x="44" y="39" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="17" font-weight="700" fill="#a9d7a9" text-anchor="start" letter-spacing="1.5">SYSTEM / TOOLBOX</text>
+<text style="white-space:pre" x="1013" y="39" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="12" font-weight="400" fill="#91ad96" text-anchor="end">TOOLS I BUILD WITH</text>
+<line x1="24" y1="54" x2="1015" y2="54" stroke="#345341" stroke-width="1"/>
+<rect x="24" y="76" width="116" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="36" y="94" width="6" height="24" rx="2" fill="#f6de91"/>
+<text style="white-space:pre" x="49" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">PYTHON</text>
+<rect x="149" y="76" width="116" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="161" y="94" width="6" height="24" rx="2" fill="#7195b6"/>
+<text style="white-space:pre" x="174" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">TEXTUAL</text>
+<rect x="274" y="76" width="130" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="286" y="94" width="6" height="24" rx="2" fill="#7195b6"/>
+<text style="white-space:pre" x="299" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">TYPESCRIPT</text>
+<rect x="413" y="76" width="130" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="425" y="94" width="6" height="24" rx="2" fill="#f6de91"/>
+<text style="white-space:pre" x="438" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">JAVASCRIPT</text>
+<rect x="552" y="76" width="116" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="564" y="94" width="6" height="24" rx="2" fill="#a9d7a9"/>
+<text style="white-space:pre" x="577" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">GODOT</text>
+<rect x="677" y="76" width="116" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="689" y="94" width="6" height="24" rx="2" fill="#e6a15c"/>
+<text style="white-space:pre" x="702" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">GIT</text>
+<rect x="802" y="76" width="126" height="60" rx="8" fill="#192b22" stroke="#345341" stroke-width="1"/>
+<rect x="814" y="94" width="6" height="24" rx="2" fill="#7195b6"/>
+<text style="white-space:pre" x="827" y="112" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="13" font-weight="700" fill="#d9ebd9" text-anchor="start">POWERSHELL</text>
+<text style="white-space:pre" x="24" y="161" font-family="Consolas, Menlo, DejaVu Sans Mono, monospace" font-size="12" font-weight="400" fill="#91ad96" text-anchor="start">$ ls ~/skills  --focus practical tools, accessible interfaces, and fun details</text>
+</svg>

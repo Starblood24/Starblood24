@@ -1,0 +1,12 @@
+# Local development / never publish secrets
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+.DS_Store
+preview/chromium-log.txt
+node_modules/

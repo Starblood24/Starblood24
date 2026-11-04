@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>STARBLOOD.OS — local README preview</title>
+  <style>
+    :root { color-scheme:dark; --bg:#0a1110; --surface:#101a16; --line:#304c3b; --text:#d9ebd9; --muted:#9eb8a3; --accent:#a9d7a9; --yellow:#f6de91; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; min-height:100vh; color:var(--text); background:radial-gradient(ellipse 65% 35% at 50% 0%, #1b3424 0%, transparent 67%), var(--bg); font:16px/1.6 ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; }
+    body::before {content:""; position:fixed; z-index:-1; inset:0; opacity:.18; pointer-events:none; background-image:repeating-linear-gradient(0deg,transparent 0,transparent 31px,#214031 32px);}
+    .shell { max-width:1216px; margin:30px auto; padding:0 44px 45px; }
+    .top {display:flex;align-items:center;justify-content:space-between;gap:15px; color:var(--muted); padding:0 0 20px; font-size:13px;}
+    .top b {font-weight:700;color:var(--accent)}
+    .indicator {display:inline-block;height:9px;width:9px;background:#a9d7a9;border-radius:50%;margin-right:8px;box-shadow:0 0 12px #a9d7a966;}
+    .flag { color:var(--yellow); border:1px solid #655a37; border-radius:99px; padding:4px 12px; font-size:12px; font-weight:700; }
+    img.panel { width:100%; height:auto; display:block; border-radius:14px; }
+    .section { margin-top:33px; }
+    .section h2 {font-size:18px;color:var(--accent);font-weight:700;margin:0 0 14px;letter-spacing:.1px;}
+    .section h2 span {color:#6f9679;font-weight:400}
+    .about { border-left:3px solid #467558; padding:4px 0 3px 19px; color:#bed1c1; max-width:930px; line-height:1.7; font-size:15px; }
+    .about strong {color:#e3f0df}
+    .grid { display:grid;gap:13px; }
+    .media {display:grid;grid-template-columns:1fr;gap:13px;}
+    .footer {display:flex;justify-content:space-between;gap:12px;align-items:center;border-top:1px solid var(--line);color:var(--muted);font-size:12px;padding-top:23px;margin-top:35px;}
+    .gifwrap {display:flex;align-items:center;gap:22px;border:1px solid var(--line);background:var(--surface);border-radius:15px;padding:14px 20px;}
+    .gifwrap picture {flex:0 0 190px;max-width:38%;}
+    .gifwrap img {width:100%;height:auto;display:block;border-radius:9px;}
+    .gifcopy {flex:1;min-width:0;}
+    .gifcopy p {margin:3px 0;color:var(--muted);font-size:13px;}
+    .gifcopy h3 {margin:0 0 8px;color:var(--accent);font-size:19px;}
+    .gifcopy code { color:var(--yellow);font-size:13px; }
+    .sidenote {font-size:12px;line-height:1.6;color:#8da394;margin-top:8px;}
+    a {color:var(--accent);}
+    @media(max-width:780px){.shell{margin:8px auto;padding:0 12px 25px}.top{padding:10px 4px 14px}.top{flex-wrap:wrap}.top span:first-child{font-size:11px}.section{margin-top:23px}.section h2{font-size:15px}.about{font-size:13px}.gifwrap{padding:8px}.gifwrap picture{flex-basis:130px}.gifcopy h3{font-size:14px}.gifcopy p{font-size:11px}.footer{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){ html {scroll-behavior:auto;} }
+  </style>
+</head>
+<body>
+<main class="shell">
+  <div class="top"><span><i class="indicator"></i><b>STARBLOOD.OS</b> &nbsp; / &nbsp; README DESIGN PREVIEW</span><span class="flag">LOCAL PREVIEW · DEMO DATA</span></div>
+  <picture><source media="(max-width: 640px)" srcset="../assets/hero_mobile.svg" /><img class="panel" src="../assets/hero.svg" alt="STARBLOOD.OS header with real ASCII Pompompurin" /></picture>
+  <section class="section">
+    <h2><span>&gt; </span> about.exe</h2>
+    <div class="about">Hi, I'm <strong>Emir</strong> — a Computer Science master's student at <strong>RWTH Aachen</strong> who likes building useful software with personality. I'm interested in <strong>game development, cybersecurity, developer tools and the little UX details</strong> that make an interface feel right.</div>
+  </section>
+  <section class="section">
+    <h2><span>&gt; </span> github --telemetry</h2>
+    <div class="media">
+      <picture><source media="(max-width: 640px)" srcset="./demo/stats_mobile.svg" /><img class="panel" src="./demo/stats.svg" alt="Demo profile metrics, not real values" /></picture>
+      <picture><source media="(max-width: 640px)" srcset="./demo/contributions_mobile.svg" /><img class="panel" src="./demo/contributions.svg" alt="Simulated contribution activity calendar" /></picture>
+      <picture><source media="(max-width: 640px)" srcset="./demo/languages_mobile.svg" /><img class="panel" src="./demo/languages.svg" alt="Demo language distribution" /></picture>
+    </div>
+    <div class="sidenote">Preview values and contributions are illustrative only. Published profile assets begin in a pending state and are populated by GitHub Actions using real API data.</div>
+  </section>
+  <section class="section">
+    <h2><span>&gt; </span> cat ~/featured/typr</h2>
+    <a href="https://github.com/Starblood24/typr" target="_blank" rel="noopener noreferrer"><picture><source media="(max-width: 640px)" srcset="../assets/featured_typr_mobile.svg" /><img class="panel" src="../assets/featured_typr.svg" alt="Featured typr project" /></picture></a>
+  </section>
+  <section class="section">
+    <h2><span>&gt; </span> ls ~/toolbox</h2>
+    <picture><source media="(max-width: 640px)" srcset="../assets/stack_mobile.svg" /><img class="panel" src="../assets/stack.svg" alt="Technical toolbox" /></picture>
+  </section>
+  <section class="section">
+    <h2><span>&gt; </span> ./pompompurin --idle</h2>
+    <div class="gifwrap"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../assets/pompompurin_idle_poster.png" /><img src="../assets/pompompurin_idle.gif" alt="Animated ASCII Pompompurin" /></picture><div class="gifcopy"><h3>tiny companion, big projects.</h3><p>Animated character derived from the original Pompompurin profile picture, rendered in colored Unicode glyphs.</p><code>[ gentle blink ] [ seamless loop ]</code></div></div>
+  </section>
+  <div class="footer"><span>Starblood24 / STARBLOOD.OS</span><span>preview only · no GitHub changes</span></div>
+</main>
+</body>
+</html>

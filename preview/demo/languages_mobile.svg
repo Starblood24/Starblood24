@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="white-space:pre" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Mobile-optimized language proportions by public repository source bytes">
+<title>Languages mobile</title><desc>Mobile-optimized language proportions by public repository source bytes</desc>
+<rect width="640" height="300" rx="16" fill="#0c1412"/>
+<rect x="1" y="1" width="638" height="298" rx="15" fill="none" stroke="#345341" stroke-width="2"/>
+<g font-family="Consolas, Menlo, DejaVu Sans Mono, monospace">
+<rect x="18" y="20" width="7" height="16" rx="1" fill="#7195b6"/>
+<text style="white-space:pre" x="38" y="34" font-size="17" font-weight="700" text-anchor="start" fill="#a9d7a9" opacity="1.0">CODE / LANGUAGES</text>
+<path d="M18 52 H622" stroke="#345341" stroke-width="1"/>
+<text style="white-space:pre" x="18" y="90" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Python</text>
+<rect x="177" y="74" width="366" height="20" rx="3" fill="#20352a"/>
+<rect x="177" y="74" width="194.88311688311686" height="20" rx="3" fill="#f0d488"/>
+<text style="white-space:pre" x="621" y="90" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">53.2%</text>
+<text style="white-space:pre" x="18" y="123" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">TypeScript</text>
+<rect x="177" y="107" width="366" height="20" rx="3" fill="#20352a"/>
+<rect x="177" y="107" width="78.42857142857142" height="20" rx="3" fill="#7195b6"/>
+<text style="white-space:pre" x="621" y="123" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">21.4%</text>
+<text style="white-space:pre" x="18" y="156" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">GDScript</text>
+<rect x="177" y="140" width="366" height="20" rx="3" fill="#20352a"/>
+<rect x="177" y="140" width="52.761038961038956" height="20" rx="3" fill="#8eb7c5"/>
+<text style="white-space:pre" x="621" y="156" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">14.4%</text>
+<text style="white-space:pre" x="18" y="189" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">JavaScript</text>
+<rect x="177" y="173" width="366" height="20" rx="3" fill="#20352a"/>
+<rect x="177" y="173" width="25.192207792207792" height="20" rx="3" fill="#d1bf76"/>
+<text style="white-space:pre" x="621" y="189" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">6.9%</text>
+<text style="white-space:pre" x="18" y="222" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Other</text>
+<rect x="177" y="206" width="366" height="20" rx="3" fill="#20352a"/>
+<rect x="177" y="206" width="14.735064935064935" height="20" rx="3" fill="#a9d7a9"/>
+<text style="white-space:pre" x="621" y="222" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">4.0%</text>
+<path d="M18 248 H622" stroke="#345341" stroke-width="1"/>
+<text style="white-space:pre" x="18" y="267" font-size="12" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">Public source sizes · not skill proficiency</text>
+<text style="white-space:pre" x="18" y="287" font-size="11" font-weight="400" text-anchor="start" fill="#f6de91" opacity="1.0">DEMO DATA  /  NOT LIVE</text>
+</g>
+</svg>

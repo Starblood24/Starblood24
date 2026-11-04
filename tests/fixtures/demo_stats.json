@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "username": "Starblood24",
+  "updated_at": "2026-11-04T00:00:00+00:00",
+  "status": "demo",
+  "public_repositories": 12,
+  "total_stars": 47,
+  "total_forks": 6,
+  "year_contributions": 382,
+  "days": [],
+  "languages": [
+    {"name": "Python", "bytes": 410000, "percent": 53.2},
+    {"name": "TypeScript", "bytes": 165000, "percent": 21.4},
+    {"name": "GDScript", "bytes": 111000, "percent": 14.4},
+    {"name": "JavaScript", "bytes": 53000, "percent": 6.9},
+    {"name": "Other", "bytes": 31000, "percent": 4.0}
+  ]
+}

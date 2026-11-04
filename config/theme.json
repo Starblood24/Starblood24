@@ -1,0 +1,16 @@
+{
+  "name": "STARBLOOD.OS / Soft Phosphor",
+  "background": "#0c1412",
+  "surface": "#14211b",
+  "surface_alt": "#182a20",
+  "border": "#345341",
+  "text": "#d9ebd9",
+  "muted": "#91ad96",
+  "accent": "#a9d7a9",
+  "accent_dim": "#699e76",
+  "yellow": "#f6de91",
+  "blue": "#7195b6",
+  "orange": "#e6a15c",
+  "low": "#22352b",
+  "heatmap": ["#1b2c23", "#345741", "#50795a", "#78a67c", "#b1dba9"]
+}
