@@ -33,7 +33,7 @@ I gravitate toward **game development**, **cybersecurity**, developer tools, and
   </picture>
 </p>
 
-<sub>Data comes from the GitHub GraphQL API. Generated daily via GitHub Actions. Contributions are contributions, not commit counts. Languages represent public repository source bytes, not skill proficiency. If you see “AWAITING FIRST API RUN,” start the workflow once after creating the profile repository.</sub>
+
 
 ### `> cat ~/featured/typr`
 
