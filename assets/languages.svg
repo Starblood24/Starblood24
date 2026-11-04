@@ -7,10 +7,28 @@
 <text style="white-space:pre" x="44" y="37" font-size="17" font-weight="700" text-anchor="start" fill="#a9d7a9" opacity="1.0" letter-spacing="1.6">CODE / LANGUAGES</text>
 <text style="white-space:pre" x="1014" y="37" font-size="12" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">BY REPORTED SOURCE BYTES</text>
 <path d="M24 53 H1016" stroke="#345341" stroke-width="1"/>
-<text style="white-space:pre" x="520" y="131" font-size="19" font-weight="700" text-anchor="middle" fill="#a9d7a9" opacity="1.0">LANGUAGE DISTRIBUTION PENDING</text>
-<text style="white-space:pre" x="520" y="166" font-size="13" font-weight="400" text-anchor="middle" fill="#91ad96" opacity="1.0">Public non-fork, non-archived repositories only.</text>
+<text style="white-space:pre" x="29" y="96" font-size="15" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Python</text>
+<rect x="246" y="80" width="668" height="20" rx="4" fill="#20352a"/>
+<rect x="246" y="80" width="574.5187756201191" height="20" rx="4" fill="#f0d488"/>
+<text style="white-space:pre" x="1010" y="96" font-size="14" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">86.0%</text>
+<text style="white-space:pre" x="29" y="130" font-size="15" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">HTML</text>
+<rect x="246" y="114" width="668" height="20" rx="4" fill="#20352a"/>
+<rect x="246" y="114" width="76.10215134197063" height="20" rx="4" fill="#d58668"/>
+<text style="white-space:pre" x="1010" y="130" font-size="14" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">11.4%</text>
+<text style="white-space:pre" x="29" y="164" font-size="15" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">JavaScript</text>
+<rect x="246" y="148" width="668" height="20" rx="4" fill="#20352a"/>
+<rect x="246" y="148" width="9.090950799397584" height="20" rx="4" fill="#d1bf76"/>
+<text style="white-space:pre" x="1010" y="164" font-size="14" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">1.4%</text>
+<text style="white-space:pre" x="29" y="198" font-size="15" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Lua</text>
+<rect x="246" y="182" width="668" height="20" rx="4" fill="#20352a"/>
+<rect x="246" y="182" width="7.441987572683842" height="20" rx="4" fill="#699e76"/>
+<text style="white-space:pre" x="1010" y="198" font-size="14" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">1.1%</text>
+<text style="white-space:pre" x="29" y="232" font-size="15" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">PowerShell</text>
+<rect x="246" y="216" width="668" height="20" rx="4" fill="#20352a"/>
+<rect x="246" y="216" width="0.8461346658288701" height="20" rx="4" fill="#90bcdd"/>
+<text style="white-space:pre" x="1010" y="232" font-size="14" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">0.1%</text>
 <path d="M24 240 H1016" stroke="#345341" stroke-width="1"/>
 <text style="white-space:pre" x="24" y="260" font-size="12" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">Languages reflect repository size, not proficiency.</text>
-<text style="white-space:pre" x="1015" y="260" font-size="12" font-weight="400" text-anchor="end" fill="#f6de91" opacity="1.0">AWAITING FIRST API RUN</text>
+<text style="white-space:pre" x="1015" y="260" font-size="12" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">GITHUB GRAPHQL  /  LIVE SNAPSHOT</text>
 </g>
 </svg>

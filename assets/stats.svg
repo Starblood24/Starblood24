@@ -5,27 +5,27 @@
 <g font-family="Consolas, Menlo, DejaVu Sans Mono, monospace">
 <rect x="24" y="23" width="7" height="16" rx="1" fill="#a9d7a9"/>
 <text style="white-space:pre" x="44" y="37" font-size="17" font-weight="700" text-anchor="start" fill="#a9d7a9" opacity="1.0" letter-spacing="1.6">PROFILE / METRICS</text>
-<text style="white-space:pre" x="1014" y="37" font-size="12" font-weight="400" text-anchor="end" fill="#f6de91" opacity="1.0">AWAITING FIRST API RUN</text>
+<text style="white-space:pre" x="1014" y="37" font-size="12" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">GITHUB GRAPHQL  /  LIVE SNAPSHOT</text>
 <path d="M24 53 H1016" stroke="#345341" stroke-width="1"/>
 <rect x="24" y="72" width="235" height="148" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="40" y="88" width="5" height="22" rx="1" fill="#a9d7a9"/>
 <text style="white-space:pre" x="54" y="103" font-size="12" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0" letter-spacing="0.3">PUBLIC REPOS</text>
-<text style="white-space:pre" x="42" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="42" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">3</text>
 <text style="white-space:pre" x="42" y="195" font-size="13" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">owned / visible</text>
 <rect x="277" y="72" width="235" height="148" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="293" y="88" width="5" height="22" rx="1" fill="#f6de91"/>
 <text style="white-space:pre" x="307" y="103" font-size="12" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0" letter-spacing="0.3">STARS RECEIVED</text>
-<text style="white-space:pre" x="295" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="295" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">0</text>
 <text style="white-space:pre" x="295" y="195" font-size="13" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">on owned repos</text>
 <rect x="530" y="72" width="235" height="148" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="546" y="88" width="5" height="22" rx="1" fill="#7195b6"/>
 <text style="white-space:pre" x="560" y="103" font-size="12" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0" letter-spacing="0.3">CONTRIBUTIONS</text>
-<text style="white-space:pre" x="548" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="548" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">11</text>
 <text style="white-space:pre" x="548" y="195" font-size="13" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">last 12 months</text>
 <rect x="783" y="72" width="235" height="148" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="799" y="88" width="5" height="22" rx="1" fill="#e6a15c"/>
 <text style="white-space:pre" x="813" y="103" font-size="12" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0" letter-spacing="0.3">FORKS</text>
-<text style="white-space:pre" x="801" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="801" y="160" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">0</text>
 <text style="white-space:pre" x="801" y="195" font-size="13" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">of owned repos</text>
 <text style="white-space:pre" x="24" y="238" font-size="12" font-weight="400" text-anchor="start" fill="#699e76" opacity="1.0">$ profile --metrics</text>
 <text style="white-space:pre" x="1015" y="238" font-size="12" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">Starblood24  //  STARBLOOD.OS</text>

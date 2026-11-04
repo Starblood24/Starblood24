@@ -10,20 +10,20 @@
 <rect x="18" y="68" width="293" height="111" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="31" y="83" width="5" height="19" rx="1" fill="#a9d7a9"/>
 <text style="white-space:pre" x="46" y="98" font-size="13" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0">PUBLIC REPOS</text>
-<text style="white-space:pre" x="36" y="153" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="36" y="153" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">3</text>
 <rect x="329" y="68" width="293" height="111" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="342" y="83" width="5" height="19" rx="1" fill="#f6de91"/>
 <text style="white-space:pre" x="357" y="98" font-size="13" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0">STARS RECEIVED</text>
-<text style="white-space:pre" x="347" y="153" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="347" y="153" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">0</text>
 <rect x="18" y="195" width="293" height="111" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="31" y="210" width="5" height="19" rx="1" fill="#7195b6"/>
 <text style="white-space:pre" x="46" y="225" font-size="13" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0">CONTRIBUTIONS</text>
-<text style="white-space:pre" x="36" y="280" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="36" y="280" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">11</text>
 <rect x="329" y="195" width="293" height="111" rx="8" fill="#182a20" stroke="#345341" stroke-width="1"/>
 <rect x="342" y="210" width="5" height="19" rx="1" fill="#e6a15c"/>
 <text style="white-space:pre" x="357" y="225" font-size="13" font-weight="700" text-anchor="start" fill="#91ad96" opacity="1.0">FORKS</text>
-<text style="white-space:pre" x="347" y="280" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">—</text>
+<text style="white-space:pre" x="347" y="280" font-size="38" font-weight="700" text-anchor="start" fill="#d9ebd9" opacity="1.0">0</text>
 <path d="M18 321 H622" stroke="#345341" stroke-width="1"/>
-<text style="white-space:pre" x="18" y="341" font-size="12" font-weight="400" text-anchor="start" fill="#f6de91" opacity="1.0">AWAITING FIRST API RUN</text>
+<text style="white-space:pre" x="18" y="341" font-size="12" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">GITHUB GRAPHQL  /  LIVE SNAPSHOT</text>
 </g>
 </svg>
