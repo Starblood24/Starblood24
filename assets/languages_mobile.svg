@@ -8,24 +8,24 @@
 <path d="M18 52 H622" stroke="#345341" stroke-width="1"/>
 <text style="white-space:pre" x="18" y="90" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Python</text>
 <rect x="177" y="74" width="366" height="20" rx="3" fill="#20352a"/>
-<rect x="177" y="74" width="314.95647805998874" height="20" rx="3" fill="#f0d488"/>
-<text style="white-space:pre" x="621" y="90" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">86.1%</text>
-<text style="white-space:pre" x="18" y="123" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">HTML</text>
+<rect x="177" y="74" width="261.73694276160745" height="20" rx="3" fill="#f0d488"/>
+<text style="white-space:pre" x="621" y="90" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">71.5%</text>
+<text style="white-space:pre" x="18" y="123" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">GDScript</text>
 <rect x="177" y="107" width="366" height="20" rx="3" fill="#20352a"/>
-<rect x="177" y="107" width="41.5472643991426" height="20" rx="3" fill="#d58668"/>
-<text style="white-space:pre" x="621" y="123" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">11.4%</text>
-<text style="white-space:pre" x="18" y="156" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">JavaScript</text>
+<rect x="177" y="107" width="62.05145162683382" height="20" rx="3" fill="#8eb7c5"/>
+<text style="white-space:pre" x="621" y="123" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">17.0%</text>
+<text style="white-space:pre" x="18" y="156" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">HTML</text>
 <rect x="177" y="140" width="366" height="20" rx="3" fill="#20352a"/>
-<rect x="177" y="140" width="4.967469202421036" height="20" rx="3" fill="#d1bf76"/>
-<text style="white-space:pre" x="621" y="156" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">1.4%</text>
-<text style="white-space:pre" x="18" y="189" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Lua</text>
+<rect x="177" y="140" width="34.35845867212852" height="20" rx="3" fill="#d58668"/>
+<text style="white-space:pre" x="621" y="156" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">9.4%</text>
+<text style="white-space:pre" x="18" y="189" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">JavaScript</text>
 <rect x="177" y="173" width="366" height="20" rx="3" fill="#20352a"/>
-<rect x="177" y="173" width="4.066444191355292" height="20" rx="3" fill="#699e76"/>
+<rect x="177" y="173" width="4.107962046713635" height="20" rx="3" fill="#d1bf76"/>
 <text style="white-space:pre" x="621" y="189" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">1.1%</text>
-<text style="white-space:pre" x="18" y="222" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">PowerShell</text>
+<text style="white-space:pre" x="18" y="222" font-size="14" font-weight="400" text-anchor="start" fill="#d9ebd9" opacity="1.0">Lua</text>
 <rect x="177" y="206" width="366" height="20" rx="3" fill="#20352a"/>
-<rect x="177" y="206" width="0.46234414709232063" height="20" rx="3" fill="#90bcdd"/>
-<text style="white-space:pre" x="621" y="222" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">0.1%</text>
+<rect x="177" y="206" width="3.3628388465951855" height="20" rx="3" fill="#a9d7a9"/>
+<text style="white-space:pre" x="621" y="222" font-size="13" font-weight="400" text-anchor="end" fill="#91ad96" opacity="1.0">0.9%</text>
 <path d="M18 248 H622" stroke="#345341" stroke-width="1"/>
 <text style="white-space:pre" x="18" y="267" font-size="12" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">Public source sizes · not skill proficiency</text>
 <text style="white-space:pre" x="18" y="287" font-size="11" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">GITHUB GRAPHQL  /  LIVE SNAPSHOT</text>
