@@ -384,7 +384,7 @@
 <text style="white-space:pre" x="589" y="76" font-size="9" font-weight="400" text-anchor="start" fill="#91ad96" opacity="1.0">NOV</text>
 <rect x="600" y="86" width="8" height="9" rx="1" fill="#1b2c23"/>
 <rect x="600" y="99" width="8" height="9" rx="1" fill="#1b2c23"/>
-<rect x="600" y="112" width="8" height="9" rx="1" fill="none"/>
+<rect x="600" y="112" width="8" height="9" rx="1" fill="#1b2c23"/>
 <rect x="600" y="125" width="8" height="9" rx="1" fill="none"/>
 <rect x="600" y="138" width="8" height="9" rx="1" fill="none"/>
 <rect x="600" y="151" width="8" height="9" rx="1" fill="none"/>
